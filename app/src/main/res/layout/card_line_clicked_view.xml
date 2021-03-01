@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/list_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_bottom"
+        android:gravity="center_vertical"
+        android:backgroundTint="@color/greenPrimary"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:padding="24dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".9">
+
+            <ImageView
+                android:id="@+id/card_img"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_black_card" />
+
+            <TextView
+                android:id="@+id/card_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/double_horizontal_margin"
+                android:paddingEnd="0dp"
+                android:textColor="@color/blackPrimary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".1"
+            android:gravity="center_vertical|end">
+
+            <ImageView
+                android:id="@+id/card_delete"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_close_black" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

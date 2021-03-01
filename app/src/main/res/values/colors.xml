@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FD495C</color>
+<!--  Alertas  -->
+    <color name="redPrimary">#FF3B30</color> <!-- Erro branco -->
+    <color name="redSecondary">#FF453A</color><!-- Erro preto -->
+    <color name="orangePrimary">#FF9500</color><!-- Atenção 1 branco -->
+    <color name="orangeSecondary">#FF9F0A</color><!-- Atenção 1 preto -->
+    <color name="yellowPrimary">#FFCC00</color><!-- Atenção 2 branco -->
+    <color name="yellowSecondary">#FFD60A</color><!-- Atenção 2 preto -->
+    <color name="greenPrimary">#34C759</color><!-- Válido branco -->
+    <color name="greenSecondary">#32D74B</color><!-- Válido preto -->
+<!-- Sistema   -->
+    <color name="bluePrimary">#007AFF</color> <!-- Sistema azul branco -->
+    <color name="blueSecondary">#0A84FF</color><!-- Sistema azul preto -->
+    <color name="purplePrimary">#AF52DE</color><!-- Sistema roxo branco -->
+    <color name="purpleSecondary">#BF5AF2</color><!-- Sistema roxo preto -->
+    <color name="lightPurplePrimary">#5856D6</color><!-- Sistema roxo claro branco -->
+    <color name="lightPurpleSecondary">#5E5CE6</color><!-- Sistema roxo claro preto -->
+    <color name="lightBluePrimary">#5AC8FA</color><!-- Sistema azul claro branco -->
+    <color name="lightBlueSecondary">#64D2FF</color><!-- Sistema azul claro preto -->
+<!--  Tipografia  -->
+    <color name="firstTitlePrimary">#000000</color> <!-- Título e subtítulo 1 branco -->
+    <color name="firstTitleSecondary">#4D3C3C43</color><!-- Título e subtítulo 1 preto -->
+    <color name="secondTitlePrimary">#007AFF</color><!-- Título e subtítulo 2 branco -->
+    <color name="secondTitleSecondary">#993C3C43</color><!-- Título e subtítulo 2 preto -->
+    <color name="blackPrimary">#000000</color><!-- Título e texto branco -->
+    <color name="blackSecondary">#80000000</color><!-- Título e texto preto -->
+    <color name="white">#FFFFFF</color><!-- No preto -->
+
+<!--  Outras  -->
+    <color name="purpleButton">#45237A</color><!-- No preto -->
+    <color name="LightGray">#8E8E93</color><!-- No preto -->
+    <color name="colorGray">#727272</color>
+    <color name="gray">#d3d3d3</color>
+    <color name="question_gray">#F4F3F3</color>
+</resources>

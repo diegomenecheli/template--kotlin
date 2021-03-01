@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.template_android">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.templateapp.template.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.templateapp.template.view.ui.activities.SearchActivity"
+            android:label="@string/app_search"
+            android:parentActivityName="com.templateapp.template.view.ui.activities.MainFlux.MainActivity" />
+        <activity android:name="com.templateapp.template.view.ui.activities.settings.SecondarySupportActivity" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.settings.SupportClientActivity"
+            android:label="@string/app_support"
+            android:parentActivityName="com.templateapp.template.view.ui.activities.MainFlux.MainActivity" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.settings.NewCardActivity"
+            android:label="@string/app_add_card"
+            android:parentActivityName="com.templateapp.template.view.ui.activities.Payments.CreditCardActivity" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.Payments.CreditCardActivity"
+            android:label="@string/app_payments"
+            android:parentActivityName="com.templateapp.template.view.ui.activities.MainFlux.MainActivity" />
+        <activity
+            android:name=".main_menu_drawer"
+            android:label="@string/title_activity_main_menu_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.Payments.QRCodeActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+        <activity android:name="com.templateapp.template.view.ui.activities.PaymentsActivity" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.settings.SettingsInfosActivity"
+            android:label="@string/app_edit_perfil"
+            android:parentActivityName="com.templateapp.template.view.ui.activities.MainFlux.MainActivity" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.SignUpActivity"
+            android:label="@string/app_sign_up"
+            android:parentActivityName="com.templateapp.template.view.ui.activities.LoginActivity" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.ForgotActivity"
+            android:label="@string/app_forgot"
+            android:parentActivityName="com.templateapp.template.view.ui.activities.LoginActivity" />
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.MainFlux.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.templateapp.template.view.ui.activities.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.templateapp.template.view.ui.BaseActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

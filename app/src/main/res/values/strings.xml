@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Template</string>
+    <string name="app_forgot">Recuperar senha</string>
+    <string name="app_sign_up">Cadastro</string>
+    <string name="app_payments">Alterar meios de pagamento</string>
+    <string name="app_add_card">Adicionar cartão de crédito</string>
+    <string name="app_support">Suporte ao cliente</string>
+    <string name="app_search">Procurar</string>
+    <string name="app_edit_perfil">Alterar dados pessoais</string>
+
+    <!--  Login  -->
+
+    <string name="prompt_no_account">Ainda não possui uma conta?</string>
+    <string name="prompt_has_account">Já possui uma conta?</string>
+    <string name="action_sign_up">Cadastrar</string>
+    <string name="action_forgot_password">Esqueceu sua senha?</string>
+    <string name="action_forgot_email">Esqueceu seu email?</string>
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_gender">Gênero:</string>
+    <string name="prompt_gender_man">Homem</string>
+    <string name="prompt_gender_woman">Mulher</string>
+    <string name="prompt_cpf">CPF</string>
+    <string name="prompt_address">Endereço</string>
+    <string name="prompt_cep">CEP</string>
+    <string name="prompt_name">Nome completo</string>
+    <string name="prompt_question">Pergunta</string>
+    <string name="prompt_date">Data de nascimento</string>
+    <string name="prompt_phone">Telefone</string>
+    <string name="prompt_password_confirm">Confimação de senha</string>
+    <string name="prompt_password">Senha</string>
+
+    <!--  Buttons  -->
+    <string name="button_advance">Avançar</string>
+    <string name="button_new_card">Adicionar um novo cartão</string>
+    <string name="button_sign_up">Cadastrar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_login">Entrar</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_attachment">Adicionar anexo</string>
+    <string name="open">Abrir</string>
+    <string name="close">Fechar</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_forgot">Recuperar</string>
+
+    <!--  Toasts  -->
+    <string name="toast_developing">Em desenvolvimento</string>
+    <string name="label_qr_code">Alinhar com o QRCode</string>
+    <string name="prompt_alert">Alerta</string>
+    <string name="prompt_alert_delet_card">Tem certeza que deseja excluir esse cartão?</string>
+
+    <!-- Strings related to validation -->
+    <string name="validation_no_password">Preencha a senha</string>
+    <string name="validation_invalid_password">Senha inválida. Sua senha deve ter no mínimo 6 dígitos.</string>
+    <string name="validation_wrong_match">Senha diferente. As senhas devem ser iguais.</string>
+    <string name="validation_no_name">Preencha um nome</string>
+    <string name="validation_invalid_cvv">Insira um CVV válido</string>
+    <string name="validation_invalid_card">Insira um cartão válido</string>
+    <string name="validation_no_rating">Avaliação necessária!</string>
+    <string name="validation_no_cpf">Preencha seu CPF</string>
+    <string name="validation_format_cpf">Seu CPF deve estar no formato XXX.XXX.XXX-XX, totalizando 11 dígitos</string>
+    <string name="validation_invalid_cpf">Preencha com um CPF válido</string>
+    <string name="validation_no_phone">Preencha um telefone</string>
+    <string name="validation_invalid_phone">Seu telefone deve estar no formato (XX)  XXXXX-XXXX, totalizando 11 dígitos.</string>
+    <string name="validation_no_complement">Preencha um complemento</string>
+    <string name="validation_no_cep">Preencha um cep</string>
+    <string name="validation_invalid_date">Preencha com uma data válida</string>
+    <string name="validation_of_terms_of_service">Você precisa aceitar os termos de uso, para poder se cadastrar!</string>
+    <string name="validation_no_instructions">Você precisa escrever alguma informação ao entregador para continuar.</string>
+    <string name="validation_more_instructions">Escreva mais alguma coisa, o entregador precisa de mais informações.</string>
+    <string name="validation_no_email">Preencha um email</string>
+    <string name="validation_no_trasport">Selecione um tipo de transporte</string>
+    <string name="validation_invalid_email">Este e-mail não está correto. Preencha um email válido.</string>
+    <string name="validation_taken_email">Este e-mail já está cadastrado. Preencha outro e-mail.</string>
+
+    <!--  Strings texto  -->
+
+    <string name="template_texto">Texto</string>
+    <string name="prompt_search">Procurar</string>
+    <string name="prompt_type_a_message">Digite sua mensagem</string>
+    <string name="team">Team</string>
+    <string name="template_texto_medio">Ut lobortis erat vel arcu bibendum venenatis venenatis venenatis.</string>
+    <string name="template_text_small">Ut lobortis erat vel arcu.</string>
+    <string name="template_text_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et nibh eget felis bibendum tincidunt eget sed mi. Quisque in leo sit amet ex pretium dignissim nec in dolor. Suspendisse feugiat cursus metus. Suspendisse vulputate luctus mi, quis tempor quam volutpat nec. Ut pellentesque ante ac magna rutrum, ut tincidunt lacus cursus. Aenean eu ultrices leo, molestie ullamcorper mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus elementum, justo fringilla sollicitudin venenatis, quam erat aliquam sapien, sit amet sollicitudin elit diam a tortor. Vestibulum a ullamcorper mi. Vivamus ut purus sed metus volutpat tristique eu sed dui. Vivamus commodo sed massa in dignissim. Nulla leo dui, volutpat ullamcorper ullamcorper nec, tempus ac enim.
+Praesent mollis scelerisque pretium. Ut viverra, risus id mollis facilisis, nunc elit tempus mi, quis eleifend neque lacus nec diam. Aenean quis bibendum nibh. Nulla in lectus auctor, ultricies quam vel, sollicitudin magna. Integer in accumsan urna. Sed euismod vehicula turpis, a commodo nunc interdum venenatis. Phasellus egestas nunc eu leo efficitur, sed dapibus mauris ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eleifend euismod erat, eu eleifend justo finibus sit amet. Duis augue lacus, facilisis vitae porttitor non, pulvinar lacinia velit. Morbi malesuada augue quis libero tristique, et pellentesque purus cursus. Nam at commodo velit. Nunc facilisis lectus blandit, fringilla quam et, accumsan nunc. Ut fringilla dapibus auctor..</string>
+    <string name="title_activity_main_menu_drawer">main_menu_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">tester.template@tester.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_qrcode">QRCode</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_edit">Editar perfil</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_credit">Cartão de crédito</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_support">Suporte</string>
+
+    <!-- Strings related to credit card -->
+    <string name="prompt_cardholder">Nome do titular(como está no cartão)</string>
+    <string name="prompt_card_number">Número do cartão</string>
+    <string name="prompt_orders_placed">pedidos realizados</string>
+    <string name="prompt_delivery">Pedidos</string>
+    <string name="prompt_security_code">CVV</string>
+    <string name="prompt_validity">Validade</string>
+    <string name="prompt_new_credit_card">Novo cartão de crédito</string>
+    <string name="title_add_new_card">Adicionar novo cartão</string>
+    <string name="prompt_credit_cards">Cartões de crédito:</string>
+
+    <!-- Strings related to support -->
+    <string name="sup_whats">Whatsapp</string>
+    <string name="sup_chat">Chat</string>
+    <string name="sup_faq">Perguntas frequentes</string>
+    <string name="sup_extract">Extrato</string>
+    <string name="sup_details">Detalhes</string>
+    <string name="sup_values">Valores</string>
+    <string name="sup_finish">Terminando</string>
+    <string name="sup_forms">Formulário</string>
+    <string name="sup_ask">Faça uma pergunta!</string>
+    <string name="sup_contact">Fale Conosco!</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_test">Teste notificação</string>
+    <string name="prompt_image_picker_missing">Image picker option is missing!</string>
+</resources>
